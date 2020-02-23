@@ -1,0 +1,30 @@
+{
+  "name": "my-simple-webpack",
+  "version": "1.0.0",
+  "description": "自己写的简易的webpack,用于学习",
+  "main": "index.js",
+  "scripts": {
+    "mypack": "node mypack/mypack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/generator": "^7.8.4",
+    "@babel/parser": "^7.8.4",
+    "@babel/traverse": "^7.8.4",
+    "ejs": "^3.0.1",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hualigushi/my-simple-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hualigushi/my-simple-webpack/issues"
+  },
+  "homepage": "https://github.com/hualigushi/my-simple-webpack#readme"
+}
